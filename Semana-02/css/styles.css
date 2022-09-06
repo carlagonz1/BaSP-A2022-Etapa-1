@@ -185,7 +185,7 @@ main {
     width: 25%;
     position: absolute;
     height: 720px;
-    bottom: 1720px;
+    bottom: 2000px;
     margin-left: 310px;
     border-style: solid;
     padding-left: 50px;
@@ -196,7 +196,7 @@ main {
 .tittle-why {
     display: inline-block;
     position: absolute;
-    bottom: 2100px;
+    bottom: 2300px;
     left: 570px;
 }
 .text-why {
@@ -290,10 +290,38 @@ h1, h2, h3, p {
     width: 25%;
     float: right;
     margin-right: 100px;
+    top: 100px;
 }
-#history-text {
+#hitory-text {
     display: inline-block;
-    width: 50%;
-    
-    
+    width: 60%;
+    margin-top: 50px;
+    float: left;  
+}
+#mission-tittle {
+    border-style: solid;
+    border-width: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 900px;
+}
+#history-tittle {
+    border-style: solid;
+    border-width: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 900px;
+}
+.footer {
+
+    width: 80%;
+    height: 800px;
+    background-color: grey;
+}
+.ol {
+    display: inline-block;
+    width: 20%;
+    margin: 5px;
 }
