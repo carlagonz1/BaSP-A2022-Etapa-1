@@ -2,7 +2,7 @@ header {
     position: fixed;
     background-color: #373867;
     top: 0%;
-    left: 0%;
+    left: 0px;
     right: 0%;
     width: 100%;
     height: 108px;
@@ -10,6 +10,8 @@ header {
 }
 #tittle-header {
     color: white;
+    top: 60px;
+    text-align: center;
 }
 #line-header {
     position: fixed;
@@ -17,23 +19,162 @@ header {
     border-style: solid;
     border-color: white;
     width: 90%;
+    border-width: 1px;
 }
 #social {
     position: absolute;
-    right: 172px;
+    right: 90px;
     top: 39px;
+    z-index: 2;
 }
 aside {
     position: fixed;
     background-color: #373867;
-    top: 108px;
     bottom: 0%;
     left: 0%;
     height: 100%;
     width: 325px;
+    z-index: 1;
 }
-main{
+main {
     position: relative;
     left: 326px;
     z-index: -1;
+}
+.landing {
+    display: inline-block;
+}
+#landing-text {
+    display: inline-block;
+    position: relative;
+    width: 35%;
+    top: -80px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+#landing-img {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    margin-top: 200px;
+}
+#burguer {
+    color: white;
+    top: 39px;
+    left: 326px;
+    position: fixed;
+}
+#searchbar-side {
+    top: 44px;
+    position: fixed;
+    left: 45px;
+    width: 230px;
+}
+#menu-side {
+    color: white;
+    top: 110px;
+    left: 40px;
+    position: fixed;
+    display: inline-block;
+    width: 250px;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 1px;
+    opacity: 0.5
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+}
+#home {
+    position: fixed;
+    display: inline-block;
+    left: 40px;
+    top: 190px;
+    color: white;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 250px;
+    border-width: 1px;
+}
+#singup {
+    position: fixed;
+    display: inline-block;
+    left: 40px;
+    top: 230px;
+    color: white;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 250px;
+    border-width: 1px;
+}
+#login {
+    position: fixed;
+    display: inline-block;
+    left: 40px;
+    top: 270px;
+    color: white;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 250px;
+    border-width: 1px;
+}
+#contact {
+    position: fixed;
+    display: inline-block;
+    left: 40px;
+    top: 310px;
+    color: white;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 250px;
+    border-width: 1px;
+}
+#side-get {
+    position: fixed;
+    left: 50px;
+    color: white;
+    top: 450px;
+    display: inline-block;
+    width: 10%;
+    border-bottom: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+#side-text {
+    position: fixed;
+    left: 50px;
+    color: white;
+    top: 500px;
+    display: inline-block;
+    width: 12%;
+}
+#side-contact {
+    position: fixed;
+    left: 20px;
+    color: white;
+    top: 710px;
+    display: inline-block;
+    width: 15%;
 }
