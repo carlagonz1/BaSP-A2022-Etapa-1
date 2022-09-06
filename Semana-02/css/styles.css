@@ -83,19 +83,6 @@ main {
     border-left: 0px;
     border-width: 1px;
     opacity: 0.5
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ;
 }
 #home {
     position: fixed;
@@ -177,4 +164,12 @@ main {
     top: 710px;
     display: inline-block;
     width: 15%;
+}
+.functionalities {
+    display: inline-block;
+    width: 40%;
+}
+#text-func {
+    display: inline-block;
+    width: 65%;
 }
