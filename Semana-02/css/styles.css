@@ -1,39 +1,20 @@
 header {
     position: fixed;
-    background-color: #373867;
     top: 0%;
     left: 0px;
     right: 0%;
     width: 100%;
     height: 108px;
+    background-color: #373867;
     z-index: 1;
-}
-#tittle-header {
-    color: white;
-    top: 60px;
-    text-align: center;
-}
-#line-header {
-    position: fixed;
-    left: 5%;
-    border-style: solid;
-    border-color: white;
-    width: 90%;
-    border-width: 1px;
-}
-#social {
-    position: absolute;
-    right: 90px;
-    top: 39px;
-    z-index: 2;
 }
 aside {
     position: fixed;
-    background-color: #373867;
     bottom: 0%;
     left: 0%;
     height: 100%;
     width: 325px;
+    background-color: #373867;
     z-index: 1;
 }
 main {
@@ -41,48 +22,58 @@ main {
     left: 326px;
     z-index: -1;
 }
-.landing {
-    display: inline-block;
-    margin-bottom: 60px;
+h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
 }
-#landing-text {
+footer {
     display: inline-block;
-    position: relative;
-    width: 35%;
-    top: -200px;
-    margin-left: 50px;
-    margin-right: 10px;
-}
-#landing-img {
-    display: inline-block;
-    position: relative;
-    width: 40%;
-    margin-top: 200px;
+    width: 80%;
+    margin-left: 400px;
+    margin-bottom: 1500px;
 }
 #burguer {
-    color: white;
+    position: fixed;
     top: 39px;
     left: 326px;
+    color: white;
+}
+#tittle-header {
+    text-align: center;
+    top: 60px;
+    color: white;
+}
+#social {
+    position: absolute;
+    right: 90px;
+    top: 39px;
+    z-index: 2;
+}
+#line-header {
     position: fixed;
+    left: 5%;
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
 }
 #searchbar-side {
-    top: 44px;
     position: fixed;
+    top: 44px;
     left: 45px;
     width: 230px;
 }
 #menu-side {
-    color: white;
-    top: 110px;
-    left: 40px;
     position: fixed;
     display: inline-block;
+    top: 110px;
+    left: 40px;
     width: 250px;
     border-style: solid;
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
     border-width: 1px;
+    color: white;
     opacity: 0.5
 }
 #home {
@@ -90,81 +81,99 @@ main {
     display: inline-block;
     left: 40px;
     top: 190px;
-    color: white;
+    width: 250px;
     border-style: solid;
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
-    width: 250px;
     border-width: 1px;
+    color: white;
 }
 #singup {
     position: fixed;
     display: inline-block;
     left: 40px;
     top: 230px;
-    color: white;
+    width: 250px;
     border-style: solid;
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
-    width: 250px;
     border-width: 1px;
+    color: white;
 }
 #login {
     position: fixed;
     display: inline-block;
     left: 40px;
     top: 270px;
-    color: white;
+    width: 250px;
     border-style: solid;
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
-    width: 250px;
     border-width: 1px;
+    color: white;
 }
 #contact {
     position: fixed;
     display: inline-block;
     left: 40px;
     top: 310px;
-    color: white;
+    width: 250px;
     border-style: solid;
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
-    width: 250px;
     border-width: 1px;
+    color: white;
 }
 #side-get {
     position: fixed;
-    left: 50px;
-    color: white;
-    top: 450px;
     display: inline-block;
+    left: 50px;
+    top: 450px;
     width: 10%;
     border-bottom: 1px;
     border-style: solid;
     border-top: 0px;
     border-right: 0px;
     border-left: 0px;
+    color: white;
 }
 #side-text {
     position: fixed;
-    left: 50px;
-    color: white;
-    top: 500px;
     display: inline-block;
+    left: 50px;
+    top: 500px;
     width: 12%;
+    color: white;
 }
 #side-contact {
     position: fixed;
-    left: 20px;
-    color: white;
-    top: 710px;
     display: inline-block;
+    left: 20px;
+    top: 710px;
     width: 15%;
+    color: white;
+}
+.landing {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+#landing-text {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    top: -200px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+#landing-img {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    margin-top: 200px;
 }
 .functionalities {
     display: inline-block;
@@ -176,40 +185,37 @@ main {
 }
 #girl {
     display: inline-block;
+    width: 25%;
     padding-left: 90px;
     margin-top: 90px;
-    width: 25%;
+}
+.tittle-why {
+    position: absolute;
+    display: inline-block;
+    bottom: 2300px;
+    left: 570px;
 }
 .why-elements {
+    position: absolute;
     display: inline-block;
     width: 25%;
-    position: absolute;
     height: 720px;
     bottom: 2000px;
+    padding-left: 50px;
     margin-left: 310px;
     border-style: solid;
-    padding-left: 50px;
     border-top: 0px;
     border-bottom: 0px;
     border-right: 0px;
 }
-.tittle-why {
-    display: inline-block;
-    position: absolute;
-    bottom: 2300px;
-    left: 570px;
-}
-.text-why {
-    display: inline-block;
-    width: 70%;
-}
-#why-units {
+.why-units {
     display: inline-block;
     width: 100%;
     margin-top: 20px;
 }
-h1, h2, h3, p {
-    font-family: 'Roboto', sans-serif;
+.text-why {
+    display: inline-block;
+    width: 70%;
 }
 .get-in-touch {
     display: inline-block;
@@ -218,28 +224,26 @@ h1, h2, h3, p {
     margin-left: 50px;
     
 }
-.form {
-    display: inline-block;
-    width: 40%;
-    height: ;
-    margin-left: 100px;
-    margin-top: 50;
-    float: right;
-    border-style: solid;
-    border-width: 3px;
-    border-bottom: 0px;
-    border-top: 0px;
-    border-right: 0px;
-    padding-left: 80px;
-}
-   
 .letter {
     display: inline-block;
     width: 40%;
     margin-left: 100px;
     margin-top: 50;
-    float: left;
     text-align: center;
+    float: left;
+}
+.form {
+    display: inline-block;
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 50;
+    padding-left: 80px;
+    border-style: solid;
+    border-width: 3px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    float: right;
 }
 #name-form {
     display: inline-block;
@@ -275,22 +279,13 @@ h1, h2, h3, p {
     margin-right: 100px;
     float: right;
 }
-#mision-img {
-    display: inline-block;
-    width: 25%;
-}
-#mision-text {
-    display: inline-block;
-    width: 60%;
-    margin-right: 100px;
-    float: right;
-}
-#history-img {
-    display: inline-block;
-    width: 25%;
-    float: right;
-    margin-right: 100px;
-    top: 100px;
+#mission-tittle {
+    width: 900px;
+    border-style: solid;
+    border-width: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 }
 #hitory-text {
     display: inline-block;
@@ -298,27 +293,31 @@ h1, h2, h3, p {
     margin-top: 50px;
     float: left;  
 }
-#mission-tittle {
-    border-style: solid;
-    border-width: 3px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    width: 900px;
-}
 #history-tittle {
+    width: 900px;
     border-style: solid;
     border-width: 3px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    width: 900px;
+}
+#history-img {
+    display: inline-block;
+    width: 25%;
+    margin-right: 100px;
+    top: 100px;
+    float: right;
 }
 .footer {
-
     width: 80%;
     height: 800px;
     background-color: grey;
+}
+#footer-box {
+    display: inline-block;
+    width: 600px;
+    margin-top: 100px;
+    float: right;
 }
 .ol {
     display: inline-block;
