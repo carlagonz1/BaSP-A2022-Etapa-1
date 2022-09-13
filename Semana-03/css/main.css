@@ -221,4 +221,13 @@ p {
     width: 100%;
     left: 0px;
     right: 0px;
+    margin-top: 10%;
+}
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    bottom: 20%;
 }
