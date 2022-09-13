@@ -21,7 +21,6 @@ h1 {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 30%;
     margin-bottom: 20%;
 }
 
@@ -31,7 +30,7 @@ h1 {
     width: 98%;
     border-radius: 14px;
     margin: 1%;
-    color: rgba(0, 0, 0, 0.7);
+
 }
 
 .landing,
@@ -48,6 +47,7 @@ p {
     margin: 1%;
     padding: 5%;
 }
+
 .funcional h2 {
     display: none;
 }
@@ -67,8 +67,8 @@ p {
 }
 
 .funcional-logo {
-    width: 30%;
-    height: 30%;
+    width: 25%;
+    height: 25%;
 }
 .why {
     display: flex;
@@ -209,7 +209,6 @@ p {
     border-right: 0px;
     border-bottom: 1px;
     width: 100%;
-    background-color: crimson;    
     margin-top: 6%;
 }
 .footer {
@@ -236,5 +235,167 @@ p {
         margin-top: 120px;
         width: 80%;
         margin-left: 20%;
+    }
+    .landing {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    #landing-img {
+        padding-bottom: 5%;
+        width: 45%;
+        border-radius: 14px;
+        margin: 1%;
+    }
+    .landing button {
+        margin-right: 80%;
+    }
+    
+    #landing-text {
+        margin-top: 10%;
+        text-align: justify;
+        width: 40%;
+    }
+    h1 {
+        border-style: none;
+        text-align: center;
+    }
+    .funcional {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 1%;
+        padding: 5%;
+        background-color: white;
+    }
+    
+    .funcional h2 {
+        display: flex;
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    
+    .functionalities-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin: 5%;
+    }
+    
+    .functionalities-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin: 5%;
+    }
+    
+    .funcional-logo {
+        width: 25%;
+        height: 25%;
+    }
+    .why {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #girl {
+        margin: 5%;
+        width: 30%;
+        height: auto;
+        
+    }
+    .why-elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5%;
+        border-style: solid;
+        border-width: 2px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+        padding-left: 2%;
+        border-color: #C4C4C4;
+    }
+    .tittle-why {
+        
+    }
+    .why-line {
+        display: none;
+        margin: 2%;
+    }
+    .why-right, .why-left  {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7%;
+    }
+    .why-line-two {
+        display: none;
+    }
+}
+@media screen and (min-width: 764px) and (max-width: 1024px){
+    .landing {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 25%;
+        margin: 1%;
+        padding: 5%;
+    }
+    
+    #landing-img {
+        padding-top: 10%;
+        padding-bottom: 5%;
+        width: 96%;
+        border-radius: 14px;
+        margin: 1%;
+    }
+    
+    #landing-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .landing button {
+        margin-bottom: 10%;
+    }
+
+    h1 {
+        border-style: none;
+    }
+
+    .funcional {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1%;
+        padding: 5%;
+        background-color: #DDDDE5;
+
+    }
+
+    .funcional h2 {
+        display: flex;
     }
 }
