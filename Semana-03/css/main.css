@@ -1,5 +1,6 @@
 main {
     margin-top: 115px;
+    width: 100%;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
     padding-bottom: 10%;
     margin-top: 5%;
     margin-bottom: 12%;
+    text-align: center;
 }
 
 .landing {
@@ -37,11 +39,6 @@ p {
     margin: 3%;
     text-align: justify;
 }
-
-button {
-    display: none;
-}
-
 .funcional {
     display: flex;
     flex-direction: column;
@@ -127,4 +124,101 @@ button {
     background-color: #C4C4C4;
     margin-bottom: 12%;
     margin-top: 6%;
+}
+.get-in-touch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40%;
+    padding-bottom: 7%;
+    padding-top: 4%;
+}
+.get-text {
+    display: none;
+}
+.letter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.get-image {
+    margin: 3%;
+}
+.get-buttom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.get-in-touch button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+#message-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#mision-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#history-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#about-img {
+    width: 40%;
+
+}
+.about-h2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C4C4C4;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    width: 100%;
+    background-color: crimson;    
+    margin-top: 6%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #C4C4C4;
+    width: 100%;
+    left: 0px;
+    right: 0px;
 }
