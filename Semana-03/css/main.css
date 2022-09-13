@@ -231,3 +231,10 @@ p {
     width: 100%;
     bottom: 20%;
 }
+@media  (min-width: 1024px) {
+    main {
+        margin-top: 120px;
+        width: 80%;
+        margin-left: 20%;
+    }
+}

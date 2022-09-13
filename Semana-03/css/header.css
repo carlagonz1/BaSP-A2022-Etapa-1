@@ -39,3 +39,19 @@ header {
     border-color: white;
     margin-top: 3%;
 }
+@media  (min-width: 1024px) {
+    header {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80%;
+        margin-left: 20%;
+        height: 120px;
+        z-index: 1;
+        background-color: #373867;
+        top: 0px;
+        left: 0px;
+    }
+}

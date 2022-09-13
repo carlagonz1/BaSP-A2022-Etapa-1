@@ -13,110 +13,69 @@ aside {
         bottom: 0%;
         left: 0%;
         height: 100%;
-        width: 25%;
+        width: 20%;
         z-index: 1;
         background-color: #373867;
     }
     #searchbar-side {
-        position: fixed;
-        top: 44px;
-        left: 45px;
-        width: 230px;
+        margin-top: 3%;
+  
     }
     #menu-side {
-        position: fixed;
-        display: inline-block;
-        top: 110px;
-        left: 40px;
-        width: 250px;
+        width: 90%;
         border-style: solid;
         border-top: 0px;
         border-right: 0px;
         border-left: 0px;
         border-width: 1px;
         color: white;
-        opacity: 0.5
+        font-style: bold;
+        padding-bottom: 3%;
     }
-    #home {
-        position: fixed;
-        display: inline-block;
-        left: 40px;
-        top: 190px;
-        width: 250px;
+    .side-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 100%;
+        padding-bottom: 3%;
+
+    }
+    #side-options {
+        margin: 5%;
         border-style: solid;
         border-top: 0px;
         border-right: 0px;
         border-left: 0px;
         border-width: 1px;
         color: white;
+        width: 90%;
+        padding-bottom: 3%;
     }
-    #singup {
-        position: fixed;
-        display: inline-block;
-        left: 40px;
-        top: 230px;
-        width: 250px;
-        border-style: solid;
-        border-top: 0px;
-        border-right: 0px;
-        border-left: 0px;
-        border-width: 1px;
-        color: white;
-    }
-    #login {
-        position: fixed;
-        display: inline-block;
-        left: 40px;
-        top: 270px;
-        width: 250px;
-        border-style: solid;
-        border-top: 0px;
-        border-right: 0px;
-        border-left: 0px;
-        border-width: 1px;
-        color: white;
-    }
-    #contact {
-        position: fixed;
-        display: inline-block;
-        left: 40px;
-        top: 310px;
-        width: 250px;
-        border-style: solid;
-        border-top: 0px;
-        border-right: 0px;
-        border-left: 0px;
-        border-width: 1px;
-        color: white;
-    }
+
     #side-get {
-        position: fixed;
-        display: inline-block;
-        left: 50px;
-        top: 450px;
-        width: 10%;
         border-bottom: 1px;
         border-style: solid;
         border-top: 0px;
         border-right: 0px;
         border-left: 0px;
         color: white;
+        width: 90%;
     }
     #side-text {
-        position: fixed;
-        display: inline-block;
-        left: 50px;
-        top: 500px;
-        width: 12%;
         color: white;
     }
-    #side-contact {
-        position: fixed;
-        display: inline-block;
-        left: 20px;
-        top: 710px;
-        width: 15%;
+    .side-contact {
         color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .contact {
+        margin: 3%;
+        
     }
 }
     
