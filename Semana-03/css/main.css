@@ -134,6 +134,12 @@ p {
     padding-bottom: 7%;
     padding-top: 4%;
 }
+.get-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
 .get-text {
     display: none;
 }
@@ -227,6 +233,7 @@ p {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
     bottom: 20%;
 }
@@ -242,13 +249,13 @@ p {
         justify-content: space-evenly;
         align-items: flex-start;
         flex-wrap: wrap;
-        width: 100%;
+        width: 90%;
     }
     
     #landing-img {
         padding-bottom: 5%;
-        width: 45%;
-        border-radius: 14px;
+        width: 40%;
+        border-radius: 5%;
         margin: 1%;
     }
     .landing button {
@@ -312,7 +319,7 @@ p {
     }
     #girl {
         margin: 5%;
-        width: 30%;
+        width: 20%;
         height: auto;
         
     }
@@ -321,7 +328,7 @@ p {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        margin: 5%;
+        margin: 3%;
         border-style: solid;
         border-width: 2px;
         border-top: 0px;
@@ -329,9 +336,6 @@ p {
         border-bottom: 0px;
         padding-left: 2%;
         border-color: #C4C4C4;
-    }
-    .tittle-why {
-        
     }
     .why-line {
         display: none;
@@ -346,6 +350,63 @@ p {
     }
     .why-line-two {
         display: none;
+    }
+    .get-in-touch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 40%;
+        padding-bottom: 7%;
+        padding-top: 4%;
+    }
+    .get-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 45%;
+        text-align: center;
+        
+
+    }
+    .get-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 42%;
+        border-style: solid;
+        border-width: 2px;
+        border-top: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+        padding-left: 2%;
+        border-color: #C4C4C4;
+
+    }
+    .get-text {
+        display: flex;
+    }
+
+    .submit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .get-in-touch button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4%;
+  
+    }
+    #message-form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
 @media screen and (min-width: 764px) and (max-width: 1024px){

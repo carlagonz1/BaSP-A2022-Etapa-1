@@ -15,8 +15,16 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-    width: 100%;
+    align-items: flex-end;
+    width: 95%;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: white;
 }
 #burguer {
     margin: 4%;
@@ -29,17 +37,11 @@ header {
 }
 #social {
     display: none;
-    margin: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
     z-index: 2;
 }
-#line-header {
-    position: fixed;
-    width: 95%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    margin-top: 3%;
-}
+
 @media  (min-width: 1024px) {
     header {
         position: fixed;
