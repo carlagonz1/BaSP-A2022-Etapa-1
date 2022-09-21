@@ -3,7 +3,7 @@ console.log('--EXERCISE 4:IF ELSE');
 /* A. Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es mayor o igual que 0,5 
 mostrar una alerta con el mensaje “Greater than 0,5” y sino un alerta con el mensaje “Lower than 0,5”.*/
 
-console.log('-Exercise 3.A:');
+console.log('-Exercise 4.A:');
 var if1 = Math.random() * 1;
 if (if1 >= 0,5) {
     alert('Greater than 0,5');
@@ -13,7 +13,7 @@ if (if1 >= 0,5) {
 
 /*B. Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:*/
 
-console.log('-Exercise 3.B:');
+console.log('-Exercise 4.B:');
 var age = 94;
 if (age < 2) {
     alert('Bebe');

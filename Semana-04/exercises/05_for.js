@@ -1,5 +1,4 @@
 console.log('--EXERCISE 5:FOR');
-[ ]
 
 /* A. Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript para mostrar 
 una alerta utilizando cada una de las palabras. */
@@ -37,7 +36,7 @@ alert(sentence);
 decir que al final de la ejecución del bucle for debería haber 10 elementos dentro del array, desde el número 0 hasta
  al número 9. Mostrar por la consola del navegador el array final (utilizar console.log).*/
 
- console.log('-Exercise 5.C:');
+ console.log('-Exercise 5.D:');
 
  var ar2 = [ ];
  for (index = 0; index < 10; index++) {
