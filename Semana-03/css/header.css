@@ -6,10 +6,10 @@ header {
     align-items: center;
     width: 100%;
     height: 120px;
-    z-index: 1;
-    background-color: #373867;
     top: 0px;
     left: 0px;
+    background-color: #373867;
+    z-index: 1;
 }
 .header-style {
     display: flex;
@@ -18,13 +18,13 @@ header {
     align-items: flex-end;
     width: 95%;
     height: 100px;
-    border-style: solid;
-    border-width: 1px;
     margin-bottom: 4%;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     border-color: white;
+    border-style: solid;
+    border-width: 1px;
 }
 #burguer {
     margin: 4%;
@@ -34,6 +34,7 @@ header {
     text-align: center;
     margin: 4%;
     color: white;
+    font-style: bold;
 }
 #social {
     display: none;
@@ -42,7 +43,7 @@ header {
     z-index: 2;
 }
 
-@media  (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     header {
         position: fixed;
         display: flex;
@@ -50,12 +51,12 @@ header {
         justify-content: space-evenly;
         align-items: center;
         width: 80%;
-        margin-left: 20%;
-        height: 120px;
-        z-index: 1;
-        background-color: #373867;
         top: 0px;
         left: 0px;
+        margin-left: 20%;
+        height: 120px;
+        background-color: #373867;
+        z-index: 1;
     }
     .header-style {
         display: flex;
@@ -67,9 +68,9 @@ header {
     #social {
         display: flex;
         margin: 4%;
-        z-index: 2;
         width: 20%;
         height: 20%;
+        z-index: 2;
     }
 
 }

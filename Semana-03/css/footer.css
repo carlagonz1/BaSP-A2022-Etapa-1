@@ -4,16 +4,17 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #C4C4C4;
     padding-top: 20%;
     padding-bottom: 5%;
+    background-color: #C4C4C4;
 }
-@media  (min-width: 1024px) {
+
+@media screen and (min-width: 1024px) {
     footer {
-        background-color: #C4C4C4;
         padding-top: 20%;
         padding-bottom: 5%;
         width: 80%;
         margin-left: 20%;
+        background-color: #C4C4C4;
     }
 }
