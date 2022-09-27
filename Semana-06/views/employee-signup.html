@@ -7,10 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../styles/header.css">
         <link rel="stylesheet" href="../styles/aside.css">
-        <link rel="stylesheet" href="../styles/login.css">
+        <link rel="stylesheet" href="../styles/employee-signup.css">
         <link rel="stylesheet" href="../styles/footer.css">
         <link rel="stylesheet" href="../styles/styles.css">
-        <script src="../javascript/login.js"></script>
+        <script src="../javascript/sign-up.js"></script>
         <title>trackgenix</title>
     </head>
 
@@ -62,21 +62,62 @@
         </aside>
         <main>
             <form>
-                <div>
-                    <label for="uname"><b>Email</b></label>
-                    <input id="email" type="text" placeholder="Enter Email" name="uname" required>
+                <div class="form">
+                    <label><b>Nombre</b></label>
+                    <input id="nombre" type="text" placeholder="Enter Name" required>
                     <span id="error"></span>
                 </div>
-                <div>
-                    <label for="psw"><b>Password</b></label>
-                    <input id="psw" type="text" placeholder="Enter Password" name="psw" required>
+                <div class="form">
+                    <label><b>Apellido</b></label>
+                    <input id="apellido" type="text" placeholder="Enter Apellido" required>
                     <span id="error1"></span>
                 </div>
-                <div>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                <div class="form">
+                    <label><b>DNI</b></label>
+                    <input id="dni" type="text" placeholder="Enter DNI" required>
+                    <span id="error2"></span>
                 </div>
-                <span class="psw">Forgot <a href="#">password?</a></span>
-                <button id="submit" type="submit">Login</button>
+                <div class="form">
+                    <label><b>Fecha de Nacimiento</b></label>
+                    <input id="fecha" type="text" placeholder="Fecha de Nacimiento" required>
+                    <span id="error3"></span>
+                </div>
+                <div class="form">
+                    <label><b>Teléfono</b></label>
+                    <input id="telefono" type="text" placeholder="Telefono" required>
+                    <span id="error4"></span>
+                </div>
+                <div class="form">
+                    <label><b>Dirección</b></label>
+                    <input id="direccion" type="text" placeholder="Enter Direccion" required>
+                    <span id="error5"></span>
+                </div>
+                <div class="form">
+                    <label><b>Localidad</b></label>
+                    <input id="localidad" type="text" placeholder="Localidad" required>
+                    <span id="error6"></span>
+                </div>
+                <div class="form">
+                    <label><b>Código Postal</b></label>
+                    <input id="cp" type="text" placeholder="Codigo Postal" required>
+                    <span id="error7"></span>
+                </div>
+                <div class="form">
+                    <label><b>Email</b></label>
+                    <input id="email" type="text" placeholder="Enter Email" required>
+                    <span id="error8"></span>
+                </div>
+                <div class="form">
+                    <label><b>Contraseña</b></label>
+                    <input id="contraseña" type="text" placeholder="Contraseña" required>
+                    <span id="error9"></span>
+                </div>
+                <div class="form">
+                    <label><b>Repetir Contraseña</b></label>
+                    <input id="rc" type="text" placeholder="Repetir Contraseña" required>
+                    <span id="error0"></span>
+                </div>
+                <button id="submit" type="submit">Create</button>
               </form>
         </main>
         <footer>

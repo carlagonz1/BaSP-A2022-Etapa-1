@@ -13,12 +13,21 @@ form {
   padding: 20px;
 }
 
-input[type=text], input[type=password] {
+input {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.notemail {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -36,6 +45,14 @@ button:hover {
   opacity: 0.8;
 }
 
+.emailok {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
 
 span.psw {
   float: right;
